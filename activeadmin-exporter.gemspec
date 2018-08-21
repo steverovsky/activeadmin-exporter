@@ -6,9 +6,9 @@ Gem::Specification.new do |gem|
   gem.version       = ActiveAdmin::Exporter::VERSION
   gem.authors       = ['Nikita Anistratenko']
   gem.email         = ['steverovsky@gmail.com']
-  gem.description   = %q{ActiveAdmin plugin for expanding export possibilities.}
+  gem.description   = %q(ActiveAdmin plugin for expanding export possibilities.)
   gem.summary       = %q{Allows to asynchronously pack export result in ZIP and send it to email.}
-  gem.homepage      = "https://github.com/steverovsky/activeadmin-exporter"
+  gem.homepage      = 'https://github.com/steverovsky/activeadmin-exporter'
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
